@@ -2,16 +2,15 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+
         System.out.println(" Задание №1 ");
 
 
-        int firstFriday = 3;
+        int firstFriday = 1;
         for (int i = 1; i <= 31; i++) {
             if (i % 7 == firstFriday) {
                 System.out.println(" Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет. ");
-            }
-            if (i % 7 != firstFriday) {
-                System.out.println(" Сегодня не пятница, " + i + "-е число, отдыхай. ");
             }
         }
 
